@@ -1,4 +1,4 @@
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY); // Integração com Stripe (exemplo)
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const paymentController = {
   processPayment: async (req, res) => {
     try {
